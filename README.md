@@ -18,8 +18,8 @@ you can hit me up on discord 0xProf#7686 for the proper steps and all the requir
 
 ## Submission details
 
-_Project Name: Unstoppable NFT_
-_Code Repo: https://github.com/0xPr0f/Unstoppable-NFT_
-_Youtube Video: // here_
-_Discord ID: 0xProf#7686_
+_Project Name: Unstoppable NFT_  
+_Code Repo: https://github.com/0xPr0f/Unstoppable-NFT_  
+_Youtube Video: // here_  
+_Discord ID: 0xProf#7686_  
 _UD email address: 0xprofoz@gmail.com_
