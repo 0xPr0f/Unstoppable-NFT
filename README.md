@@ -9,7 +9,10 @@ this idea was inspired by token gating but then to encourage users to get a UD d
 ## How is works
 
 You will be logged into a page where you will confirm your ownership of a UD domain
-then after confirmation you will be automaticall redirected to the DApp
+then after confirmation you will be automatically redirected to the DApp where you can
+buy, sell and create NFTs that are Unique and do some other stuffs.  
+### *Unstoppable domain was integrated into my submission for the eth global web3jam hackathon*
+check out the submission: https://showcase.ethglobal.com/web3jam/metax
 
 ## How to run it
 
