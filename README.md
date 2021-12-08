@@ -9,12 +9,31 @@ this idea was inspired by token gating but then to encourage users to get a UD d
 ## How is works
 
 You will be logged into a page where you will confirm your ownership of a UD domain
-then after confirmation you will be automaticall redirected to the DApp
+then after confirmation you will be automatically redirected to the DApp where you can
+buy, sell and create NFTs that are Unique and do some other stuffs.  
+### *Unstoppable domain was integrated into my submission for the eth global web3jam hackathon*
+check out the submission: https://showcase.ethglobal.com/web3jam/metax
 
 ## How to run it
 
-If you want to run the app, you can clone the app but it will require and additional folder hidden with the gitignore
-you can hit me up on discord 0xProf#7686 for the proper steps and all the required info to be able to run the application on localhost
+If you want to run the app, you can clone the app with
+```sh
+git clone https://github.com/0xPr0f/Unstoppable-NFT.git
+```
+and then 
+```sh
+cd Unstoppable-NFT
+```
+and then 
+```sh
+npm i
+```
+and then start the serve
+```sh
+npm start
+```
+but it will fail considering that the application param is not set properly and it will require an additional folder hidden with the gitignore
+you can hit me up on discord @ 0xProf#7686 for the proper steps and all the required info to be able to run the application @ localhost
 
 ## Submission details
 
