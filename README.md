@@ -16,8 +16,24 @@ check out the submission: https://showcase.ethglobal.com/web3jam/metax
 
 ## How to run it
 
-If you want to run the app, you can clone the app but it will require and additional folder hidden with the gitignore
-you can hit me up on discord 0xProf#7686 for the proper steps and all the required info to be able to run the application on localhost
+If you want to run the app, you can clone the app with
+```sh
+git clone https://github.com/0xPr0f/Unstoppable-NFT.git
+```
+and then 
+```sh
+cd Unstoppable-NFT
+```
+and then 
+```sh
+npm i
+```
+and then start the serve
+```sh
+npm start
+```
+but it will fail considering that the application param is not set properly and it will require an additional folder hidden with the gitignore
+you can hit me up on discord @ 0xProf#7686 for the proper steps and all the required info to be able to run the application @ localhost
 
 ## Submission details
 
