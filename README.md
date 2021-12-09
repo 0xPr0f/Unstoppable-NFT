@@ -15,7 +15,7 @@ then after confirmation you will be automatically be redirected to the DApp
 
 _Project Name: Unstoppable NFT_  
 _Code Repo: https://github.com/0xPr0f/Unstoppable-NFT_  
-_Video: https://youtu.be/SUidrXPVeeY  
-// 6.37mins to be exactly it is a detailed video with explainations, if 3mins is required then watching 3mins of the video will still demonstrate the basic functionally of my project.
+_Video: https://youtu.be/SUidrXPVeeY_  
+// 6.37mins to be exactly it is a detailed video with explainations, if 3mins is required then watching 3mins of the video will still demonstrate the basic functionally of my project.  
 _Discord ID: 0xProf#7686_  
 _UD email address: 0xprofoz@gmail.com_
