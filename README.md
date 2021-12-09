@@ -20,9 +20,12 @@ you can hit me up on discord 0xProf#7686 for the proper steps, configuration and
 
 _Project Name: Unstoppable NFT_  
 _Code Repo: https://github.com/0xPr0f/Unstoppable-NFT_  
-_Youtube Video: https://www.youtube.com/watch?v=03P-PyYJCHI_   
-//the video is not 3mins(max) due to MM popup, network and i was trying to explain and prove the authenticity of my dapp.  
+_Youtube Video:  
 _Discord ID: 0xProf#7686_  
 _UD email address: 0xprofoz@gmail.com_
+
+## Extras 
+For better understanding of the integration with explaination(not nessecary) and more that 3 mins
+video: https://youtu.be/SUidrXPVeeY
 
 

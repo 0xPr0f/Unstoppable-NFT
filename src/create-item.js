@@ -2,10 +2,10 @@ import { useState } from 'react'
 import { Button } from '@material-ui/core';
 import { ethers } from 'ethers'
 import { create as ipfsHttpClient } from 'ipfs-http-client'
-import { useRouter } from 'next/router'
 import Web3Modal from 'web3modal'
 import web3 from 'web3'
-import MarketPlace from './Marketplace'
+import { useHistory } from 'react-router';
+
 
 import {
   nftaddress, nftmarketaddress
@@ -17,9 +17,10 @@ import Market from './artifacts/contracts/NFTMarket.sol/NFTMarket.json'
 const client = ipfsHttpClient('https://ipfs.infura.io:5001/api/v0')
 
 export default function Home() {
+  let history = useHistory();
   const [fileUrl, setFileUrl] = useState(null)
   const [formInput, updateFormInput] = useState({ price: '', name: '', description: '' })
-  const router = useRouter()
+ 
 
   async function createSale(url) {
     const web3Modal = new Web3Modal({
@@ -45,7 +46,7 @@ export default function Home() {
 
     await transaction.wait()
     // eslint-disable-next-line no-restricted-globals
-    router.push(MarketPlace)
+    history.push("./Marketplace");
   }
   async function onChange(e) {
     const file = e.target.files[0];
@@ -112,7 +113,7 @@ export default function Home() {
         />
         {
           fileUrl && (
-            <img className="rounded mt-4" width="350" src={fileUrl} />
+            <img alt='' className="rounded mt-4" width="350" src={fileUrl} />
           )
         }
         <Button variant="contained" color="primary"  onClick={createMarket} className="mt-4 bg-blue-500 text-white rounded p-4 shadow-lg">
