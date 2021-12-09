@@ -14,13 +14,14 @@ then after confirmation you will be automatically be redirected to the DApp
 ## How to run it
 
 If you want to run the app, you can clone the app but it will require and additional folder hidden with the gitignore
-you can hit me up on discord 0xProf#7686 for the proper steps, configuration and all the required info/files to be able to run the application on localhost
+you can hit me up on discord 0xProf#7686 for the proper steps, configuration and all the required info/files to be able to run the application on localhost   
+If a build is required by the judges, hit me up on discord and i will try to get one running as fast as i can. THANKS ! 
 
 ## Submission details
 
 _Project Name: Unstoppable NFT_  
 _Code Repo: https://github.com/0xPr0f/Unstoppable-NFT_  
-_Youtube Video:  
+_3mins Video:  
 _Discord ID: 0xProf#7686_  
 _UD email address: 0xprofoz@gmail.com_
 
