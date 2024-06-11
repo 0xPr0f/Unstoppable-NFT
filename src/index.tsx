@@ -17,17 +17,17 @@ require('dotenv').config();
 
 const uauth = new UAuth({
   // These can be copied from the bottom of your app's configuration page on unstoppabledomains.com.
-  clientID: 'H1Op36AGtJTwpj/ESzQoiB/76tfIJZigO+eAtIsfxE4=',
-  clientSecret:'6kG7lj2JkH7qHUwPRq9sYHQvBodpsifEX91twsj2yi4=',//process.env.REACT_APP_CLIENT_SECRET,
+  clientID: process.env.REACT_APP_CLIENT_ID,
+  clientSecret: process.env.REACT_APP_CLIENT_SECRET,//process.env.REACT_APP_CLIENT_SECRET,
 
   // These are the scopes your app is requesting from the ud server.
   scope: 'openid email wallet ',
 
   // This is the url that the auth server will redirect back to after every authorization attempt.
-  redirectUri: 'https://3000-brown-albatross-vrxpr950.ws-eu21.gitpod.io/callback',
+  redirectUri: process.env.REACT_APP_CLIENT_REDIRECT_URL,
 
   // This is the url that the auth server will redirect back to after logging out.
-  postLogoutRedirectUri: 'https://3000-brown-albatross-vrxpr950.ws-eu21.gitpod.io/login',
+  postLogoutRedirectUri: process.env.REACT_APP_CLIENT_PL_REDIRECT_URL,
 })
 
 const Home: React.FC<RouteProps> = props => {
